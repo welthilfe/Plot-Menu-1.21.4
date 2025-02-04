@@ -1,0 +1,101 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&c&lHome'
+  rows: 6
+  command: ph
+  auto-refresh: 5
+  open-action:
+  close-action:
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - RED_STAINED_GLASS_PANE
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+
+homes1:
+  COMMAND: 'p h 1'
+  NAME: '&cHome 1'
+  ID: ender_pearl
+  POSITION-X: 1
+  POSITION-Y: 1
+
+homes2:
+  COMMAND: 'p h 2'
+  NAME: '&cHome 2'
+  ID: ender_pearl
+  POSITION-X: 2
+  POSITION-Y: 1
+
+homes3:
+  COMMAND: 'p h 3'
+  NAME: '&cHome 3'
+  ID: ender_pearl
+  POSITION-X: 3
+  POSITION-Y: 1
+
+homes4:
+  COMMAND: 'p h 4'
+  NAME: '&cHome 4'
+  ID: ender_pearl
+  POSITION-X: 4
+  POSITION-Y: 1
+
+homes5:
+  COMMAND: 'p h 5'
+  NAME: '&cHome 5'
+  ID: ender_pearl
+  POSITION-X: 5
+  POSITION-Y: 1
+
+homes6:
+  COMMAND: 'p h 6'
+  NAME: '&cHome 6'
+  ID: ender_pearl
+  POSITION-X: 6
+  POSITION-Y: 1
+
+homes7:
+  COMMAND: 'p h 7'
+  NAME: '&cHome 7'
+  ID: ender_pearl
+  POSITION-X: 7
+  POSITION-Y: 1
+
+homes8:
+  COMMAND: 'p h 8'
+  NAME: '&cHome 8'
+  ID: ender_pearl
+  POSITION-X: 8
+  POSITION-Y: 1
+
+homes9:
+  COMMAND: 'p h 9'
+  NAME: '&cHome 9'
+  ID: ender_pearl
+  POSITION-X: 9
+  POSITION-Y: 1
+
+hbackomes9:
+  COMMAND: 'pmenu'
+  NAME: '&4Back'
+  ID: BARRIER
+  POSITION-X: 2
+  POSITION-Y: 2

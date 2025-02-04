@@ -1,0 +1,84 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&c&lSettings'
+  rows: 6
+  command: pse
+  auto-refresh: 5
+  open-action:
+  close-action:
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - GREEN_STAINED_GLASS_PANE
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+spawn-cmd:
+  COMMAND: 'p clear'
+  NAME: '&4Plot Clear'
+  LORE:
+    - 'Lehr das PLOT'
+  ID: BARRIER
+  POSITION-X: 1
+  POSITION-Y: 1
+  
+5spawn-cmd:
+  COMMAND: 'p delete'
+  NAME: '&4Plot Delete'
+  LORE:
+    - 'Löscht das PLOT'
+  ID: COMMAND_BLOCK
+  POSITION-X: 1
+  POSITION-Y: 2
+  
+sp5awn-cmd:
+  COMMAND: 'p merge'
+  NAME: '&4Plot Merge'
+  LORE:
+    - 'Merge das PLOT'
+  ID: QUARTZ_BLOCK
+  POSITION-X: 1
+  POSITION-Y: 4
+    
+sp6awn-cmd:
+  COMMAND: 'p unlink'
+  NAME: '&4Plot UnMerge'
+  LORE:
+    - 'Unmerget das PLOT'
+  ID: QUARTZ_SLAB
+  POSITION-X: 1
+  POSITION-Y: 5
+      
+spawn-cm45d:
+  COMMAND: 'p confirm'
+  NAME: '&4Confirm'
+  LORE:
+    - 'Confirm'
+  ID: OAK_LOG
+  POSITION-X: 1
+  POSITION-Y: 7
+        
+spawn-c35md:
+  COMMAND: 'pmenu'
+  NAME: '&4Back'
+  ID: BARRIER
+  POSITION-X: 2
+  POSITION-Y: 4
+          

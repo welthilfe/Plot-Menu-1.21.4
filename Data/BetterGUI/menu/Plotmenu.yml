@@ -1,0 +1,96 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&c&lPLOT &2MENU'
+  rows: 6
+  command: pmenu
+  auto-refresh: 5
+  open-action:
+  close-action:
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - GRAY_STAINED_GLASS_PANE
+        - STAINED_GLASS_PANE:11
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+settings:
+  COMMAND: 'pse'
+  NAME: '&2Settings'
+  LORE:
+    - '&cÖffnet Die Plot settings.'
+  ID: ANVIL
+  POSITION-X: 2
+  POSITION-Y: 1
+
+flags:
+  NAME: '&2Flags'
+  COMMAND: '35hd2'
+  LORE:
+    - '&cÖffnet Das Plot Flag Menu.'
+  ID: GRASS_BLOCK
+  POSITION-X: 8
+  POSITION-Y: 1
+
+homes:
+  NAME: '&aHomes'
+  COMMAND: 'ph'
+  LORE:
+    - '&cÖffnet das Plot &aHomes &cMenu.'
+  ID: RED_BED
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+Rand:
+  NAME: '&aRand'
+  COMMAND: 'rand'
+  LORE:
+    - '&cÖffnet das Plot &aRand &cMenu.'
+  ID: STONE_SLAB
+  POSITION-X: 1
+  POSITION-Y: 2
+
+admin:
+  NAME: '&6Admin Settings'
+  COMMAND: 'ape'
+  LORE:
+  PERMISSION: bettergui.adminmenu
+    - '&4Nur Für Admins'
+  ID: COMMAND_BLOCK
+  POSITION-X: 9
+  POSITION-Y: 2
+
+auto:
+  NAME: '&cClaim'
+  COMMAND: 'p claim'
+  LORE:
+    - '&cClaimt das Plot unter Dir.'
+  ID: arrow
+  POSITION-X: 8
+  POSITION-Y: 3
+
+claim:
+  COMMAND: 'p auto'
+  NAME: '&cAuto'
+  LORE:
+    - '&cClaimt sich ein Plot in der Nähe.'
+  ID: arrow
+  POSITION-X: 7
+  POSITION-Y: 3

@@ -1,0 +1,10 @@
+menu-required: '&cYou should specify a menu'
+menu-not-found: '&cThat menu does not exist'
+player-not-found: '&cThe player is not found. Maybe he is offline or didn''t join
+  your server'
+player-only: '&cYou must be a player to do this'
+success: '&aSuccess'
+no-permission: '&cYou don''t have permission to do this'
+invalid-number: '&cError converting! {input} is not a valid number'
+have-met-requirement-placeholder: 'Yes'
+prefix: '&3&larlocraft&8: &7 '

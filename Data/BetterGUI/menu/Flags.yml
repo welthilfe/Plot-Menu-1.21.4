@@ -1,0 +1,57 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+menu-settings:
+  name: '&6&lFlags'
+  rows: 6
+  command: 35hd2
+  auto-refresh: 5
+  open-action:
+  close-action:
+
+######################
+#+                  +#
+#    DEFAULT ICON    #
+#+                  +#
+######################
+default-icon:
+  type: animated
+  child:
+    frame1:
+      id:
+        - GRAY_STAINED_GLASS_PANE
+        - GRAY_STAINED_GLASS_PANE:14
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+# Note that the nodes is case-insensitive (except some sub-nodes)
+# You can use lowercase or uppercase whatever you want
+spawn-cmd:
+  COMMAND: 'p flag set explosion true'
+  NAME: '&2TNT'
+  LORE:
+    - 'Schaltet Tnt an'
+  ID: TNT
+  POSITION-X: 1
+  POSITION-Y: 1
+
+durability-armor:
+  NAME: '&4TNT'
+  COMMAND: 'p flag set explosion false'
+  LORE:
+    - 'Schaltet TNT aus.'
+  ID: TNT
+  POSITION-X: 1
+  POSITION-Y: 2
+  
+du4rability-armor:
+  NAME: '&4Back'
+  COMMAND: 'pmenu'
+  ID: BARRIER
+  POSITION-X: 9
+  POSITION-Y: 3
